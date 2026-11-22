@@ -3,7 +3,7 @@
 > *"I have a passion for coding with the help of AI to solve problems and to create things for fun because I can. To make that work at scale, AI agents need solid engineering foundations, deep documentation, and rigorous boundaries."*  
 > — **Ethan (TWU LLC)**
 
-Welcome to the **Magi Engineering Standard**. This document outlines how human developers and autonomous AI coding agents collaborate to build production-grade, local-first software. Whether you are running a swarm of AI subagents (Claude, Codex, Gemini, Antigravity) or writing code by hand, these practices guarantee that systems remain transparent, secure, heavily documented, and fun to build.
+Welcome to the **Magi Engineering Standard**. This document outlines how human developers and autonomous AI coding agents collaborate to build resilient, local-first software. Whether you are running a swarm of AI subagents (Claude, Codex, Gemini, Antigravity) or writing code by hand, these practices ensure that systems remain transparent, secure, heavily documented, and fun to build.
 
 ---
 

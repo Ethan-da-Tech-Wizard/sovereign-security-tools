@@ -137,12 +137,12 @@ Before capturing or publishing any screenshot or terminal recording, enforce the
 
 | Sensitive Category | Leaked Pattern (Prohibited) | Mandatory Public Replacement |
 |---|---|---|
-| **Local User Paths** | `<home-directory>/private/repo` | `~/workspace/...` or `/home/user/project/...` |
+| **Local User Paths** | `<root-directory>/internal/repo` | `~/workspace/...` or `/workspace/project/...` |
 | **User Identifiers** | `developer@internal-box` | `developer@sovereign-node` |
 | **Real IP Addresses** | Internal private LAN IP | `127.0.0.1` or RFC 5737 (`192.0.2.1`) |
 | **Hardware MACs** | Real interface hardware hex | `de:ad:be:ef:00:01` (mock address) |
 | **Email Addresses** | Personal primary email | `user@example.com` or noreply address |
-| **API Tokens & Keys** | Live bearer or secret tokens | `gho_************************************` |
+| **API Tokens & Keys** | Live bearer or secret tokens | `TOKEN_************************************` |
 
 ### Automated Screenshot Redaction Workflow
 
@@ -164,7 +164,7 @@ sequenceDiagram
 
 ## 4. Real Defensive Engineering vs. "Word Spout"
 
-Do not write safety tools that only print friendly reassurance text. Modern sovereign systems require battle-tested open-source security tools:
+Do not write safety tools that only print friendly reassurance text. Modern sovereign systems require robust, reproducible open-source security tools:
 
 ### 1. Detached Digital Signatures (`minisign` / `signify`)
 - Never trust an unverified download.
