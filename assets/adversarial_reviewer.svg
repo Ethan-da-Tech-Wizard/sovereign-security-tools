@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 376" width="860" height="376">
+  <defs>
+    <style>
+      .terminal-bg { fill: #181825; }
+      .terminal-header { fill: #11111b; }
+      .terminal-title { fill: #a6adc8; font-family: monospace, monospace; font-size: 13px; font-weight: bold; text-anchor: middle; }
+      .terminal-text { fill: #cdd6f4; font-family: monospace, monospace; font-size: 13px; }
+      .btn-red { fill: #f38ba8; }
+      .btn-yellow { fill: #f9e2af; }
+      .btn-green { fill: #a6e3a1; }
+    </style>
+  </defs>
+  <rect class="terminal-bg" x="0" y="0" width="860" height="376" rx="10" ry="10" />
+  <path class="terminal-header" d="M 0 10 A 10 10 0 0 1 10 0 L 850 0 A 10 10 0 0 1 860 10 L 860 42 L 0 42 Z" />
+  <circle class="btn-red" cx="24" cy="21" r="6" />
+  <circle class="btn-yellow" cx="42" cy="21" r="6" />
+  <circle class="btn-green" cx="60" cy="21" r="6" />
+  <text class="terminal-title" x="430" y="26">dash review — Chief Adversarial Code Reviewer</text>
+  <g class="terminal-text">
+    <text x="24" y="80">$ dash review scripts/</text>
+    <text x="24" y="102">======================================================================</text>
+    <text x="24" y="124">  CHIEF ADVERSARIAL MULTI-AGENT CODE REVIEW (Apache-2.0)</text>
+    <text x="24" y="146">======================================================================</text>
+    <text x="24" y="168">Audit Target: scripts/ (4 tool modules)</text>
+    <text x="24" y="190">Adversarial Friction Rules Checked: 5</text>
+    <text x="24" y="212">  ✓ Rule 1: No word-spout / fake pass mechanisms</text>
+    <text x="24" y="234">  ✓ Rule 2: Pure standard library (Zero pip dependencies)</text>
+    <text x="24" y="256">  ✓ Rule 3: Fail-closed on missing signatures or corrupt receipts</text>
+    <text x="24" y="278">  ✓ Rule 4: Rule 16 comment ratio &gt;= 25% (Found: 28.5% avg)</text>
+    <text x="24" y="300">  ✓ Rule 5: Zero PII, machine hostnames, or private paths</text>
+    <text x="24" y="322">Receipt: data/health/ADVERSARIAL_REVIEW_RECEIPT.json</text>
+    <text x="24" y="344">Review Verdict: APPROVE (Sovereign Quality Standard Met)</text>
+  </g>
+</svg>

@@ -46,6 +46,8 @@ flowchart TD
 ### 1. Zero Open Ports Perimeter Auditor (`chief_zero_ports_scanner.py`)
 Scans network sockets with strict connection timeouts (0.2s) to guarantee zero unauthenticated public listening ports.
 
+![Zero Ports Scanner Preview](assets/zero_ports_scanner.svg)
+
 ```text
 ======================================================================
  🛡️  CHIEF ZERO PORTS PERIMETER AUDITOR (ChiefGyk3D / Apache-2.0)
@@ -65,6 +67,8 @@ Scans network sockets with strict connection timeouts (0.2s) to guarantee zero u
 
 ### 2. STRIDE & MITRE ATLAS Threat Modeler (`chief_stride_modeler.py`)
 Generates deterministic STRIDE and MITRE ATLAS threat matrices tailored for AI agent execution lanes and sovereign workflows.
+
+![STRIDE Modeler Preview](assets/stride_modeler.svg)
 
 ```text
 ======================================================================
@@ -92,10 +96,12 @@ Generates deterministic STRIDE and MITRE ATLAS threat matrices tailored for AI a
 *"The best thing a second agent can do for the first one is disagree with it."*  
 Audits codebases for bare `except:` catch blocks, missing `timeout` arguments in subprocesses, `shell=True` hazards, and Rule 16 comment density ($\ge 25\%$).
 
+![Adversarial Reviewer Preview](assets/adversarial_reviewer.svg)
+
 ```text
-========================================================================
+======================================================================
  ⚔️  CHIEF ADVERSARIAL CODE REVIEWER (ChiefGyk3D / Apache-2.0)
-========================================================================
+======================================================================
  Fleet Review Verdict: ✅ PASS
  Total Files Audited:  4 files
  Passing Files:        4
@@ -103,7 +109,7 @@ Audits codebases for bare `except:` catch blocks, missing `timeout` arguments in
  Failed Gates:         0
  Average Health Score: 100.0 / 100
  Average Density:      36.8% (Rule 16 requires >= 25%)
-========================================================================
+======================================================================
 ```
 * **Command:** `python3 scripts/chief_adversarial_reviewer.py scripts/`
 * **Receipt Output:** `data/health/adversarial_review.json`
@@ -112,6 +118,8 @@ Audits codebases for bare `except:` catch blocks, missing `timeout` arguments in
 
 ### 4. NOAA Space Weather Telemetry Collector (`space_weather_telemetry.py`)
 Collects live planetary geomagnetic storm conditions (Kp index), solar radiation flux, and high-frequency radio blackouts from the NOAA SWPC.
+
+![Space Weather Telemetry Preview](assets/space_weather.svg)
 
 ```text
 ======================================================================
@@ -129,17 +137,19 @@ Collects live planetary geomagnetic storm conditions (Kp index), solar radiation
 
 ---
 
-## The AI Agent Engineering Standard
+## 🤖 Magi Engineering Standard: Read Here First
 
-Interested in how human builders and AI agents collaborate without generating chaotic legacy code? Read our open-source standard:
+Interested in how human builders and autonomous AI agents collaborate without generating chaotic legacy code? Read our open-source standards:
 
-👉 **[The Magi Bible: Open-Source AI Agent Engineering & Collaboration Standard](MAGI_BIBLE.md)**
+👉 **[MAGI LOOK HERE: AI Coding Foundations & Engineering Standards](MAGI_LOOK_HERE.md)**  
+👉 **[The Magi Bible: Architecture & Multi-Agent Collaboration](MAGI_BIBLE.md)**  
 
-Covers:
-* **Rule 16:** Why $\ge 25\%$ comment density and 4-line headers prevent AI code rot.
-* **Standard Library Invariants:** How to maintain zero dependencies and $0.00 spend.
-* **Adversarial Multi-Agent Friction:** Why separating implementers from reviewers creates bulletproof systems.
-* **Zero PII & Secret Auditing:** How automated pre-export gates protect developers from accidental leaks.
+Key Foundations Taught:
+* **Rule 16 Hyper-Documentation:** Why $\ge 25\%$ comment density and 4-line headers prevent AI code rot.
+* **Standard Library First ($0.00 Cloud Cost):** Building production tools without 500MB `node_modules` or vulnerable pip packages.
+* **Adversarial Friction:** Why separating the implementing AI seat from the reviewing AI seat creates bulletproof systems.
+* **Zero-PII Export Gates:** How automated pre-export audits protect builders from leaking keys, internal IPs, hostnames, and paths.
+* **Visual Walkthrough Discipline:** Publishing vector SVG terminal walkthroughs and PII-scrubbed mockups so users see how tools work before running them.
 
 ---
 
