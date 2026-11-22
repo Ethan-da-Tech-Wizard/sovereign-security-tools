@@ -1,0 +1,11 @@
+Sovereign Security Tools
+Copyright 2026 Ethan & Antigravity (TWU LLC)
+
+This product includes software developed by ChiefGyk3D (https://github.com/ChiefGyk3D)
+under the Apache License 2.0:
+- Zero open inbound ports network scanner (adapted from Clouds-Against-Humanity)
+- STRIDE & MITRE ATLAS threat modeler (adapted from Clouds-Against-Humanity)
+- Adversarial multi-agent code reviewer (adapted from department-of-internal-arguments)
+
+Space weather telemetry utilizes public domain data feeds provided by the
+National Oceanic and Atmospheric Administration (NOAA) Space Weather Prediction Center.
